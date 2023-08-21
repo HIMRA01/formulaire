@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulaire d'inscription</title>
+</head>
+<body>
+
+<h2>Inscription</h2>
+
+<form action="traitement_inscription.php" method="post">
+    <label for="nom_complet">Nom complet:</label><br>
+    <input type="text" id="nom_complet" name="nom_complet" required><br><br>
+
+    <label for="adresse_email">Adresse e-mail:</label><br>
+    <input type="email" id="adresse_email" name="adresse_email" required><br><br>
+
+    <label for="mot_de_passe">Mot de passe:</label><br>
+    <input type="password" id="mot_de_passe" name="mot_de_passe" required><br><br>
+
+    <label for="confirmer_mot_de_passe">Confirmer le mot de passe:</label><br>
+    <input type="password" id="confirmer_mot_de_passe" name="confirmer_mot_de_passe" required><br><br>
+
+    <input type="submit" value="S'inscrire">
+</form>
+
+</body>
+</html>
